@@ -1,8 +1,7 @@
 
 name: Check for required files
 
-on:
-  push:
+on: push
 
 jobs:
   build:
