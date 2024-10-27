@@ -3,7 +3,6 @@ name: Check for required files
 
 on:
   push:
-    branches: [ assignment ]
 
 jobs:
   build:
