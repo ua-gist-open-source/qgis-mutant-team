@@ -1,8 +1,9 @@
 
 name: Check for required files
 
-on: push
-
+  push:
+    branches: 
+      - '**'        # matches every branch
 jobs:
   build:
     runs-on: ubuntu-latest
